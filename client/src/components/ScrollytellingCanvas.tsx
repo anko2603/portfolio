@@ -66,55 +66,6 @@ export function ScrollytellingCanvas() {
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
-    // Handle resizing
-    const handleResize = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-      
-      // Initial draw to clear/setup
-      if (imagesLoaded) {
-        renderFrame(currentFrame.get());
-      }
-    };
-    
-    window.addEventListener("resize", handleResize);
-    handleResize(); // Initial size
-
-    const renderFrame = (index: number) => {
-      const frameIndex = Math.min(
-        FRAME_COUNT - 1,
-        Math.max(0, Math.floor(index))
-      );
-
-      // Clear canvas
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = "#121212";
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-      const img = images[frameIndex];
-
-      if (img && img.complete && img.naturalHeight !== 0) {
-        // Calculate "cover" fit
-        const scale = Math.max(
-          canvas.width / img.width,
-          canvas.height / img.height
-        );
-        const x = (canvas.width / 2) - (img.width / 2) * scale;
-        const y = (canvas.height / 2) - (img.height / 2) * scale;
-        
-        ctx.drawImage(
-          img,
-          x,
-          y,
-          img.width * scale,
-          img.height * scale
-        );
-      } else {
-        // Fallback visual if images are missing (e.g. dev mode)
-        drawFallback(ctx, canvas.width, canvas.height, frameIndex / FRAME_COUNT);
-      }
-    };
-
     const drawFallback = (
       ctx: CanvasRenderingContext2D,
       w: number,
@@ -156,6 +107,56 @@ export function ScrollytellingCanvas() {
       ctx.fillText(`SEQ: ${Math.floor(progress * 100)}%`, 20, h - 20);
     };
 
+    const renderFrame = (index: number) => {
+      if (!ctx || !canvas) return;
+      const frameIndex = Math.min(
+        FRAME_COUNT - 1,
+        Math.max(0, Math.floor(index))
+      );
+
+      // Clear canvas
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = "#121212";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      const img = images[frameIndex];
+
+      if (img && img.complete && img.naturalHeight !== 0) {
+        // Calculate "cover" fit
+        const scale = Math.max(
+          canvas.width / img.width,
+          canvas.height / img.height
+        );
+        const x = (canvas.width / 2) - (img.width / 2) * scale;
+        const y = (canvas.height / 2) - (img.height / 2) * scale;
+        
+        ctx.drawImage(
+          img,
+          x,
+          y,
+          img.width * scale,
+          img.height * scale
+        );
+      } else {
+        // Fallback visual if images are missing (e.g. dev mode)
+        drawFallback(ctx, canvas.width, canvas.height, frameIndex / FRAME_COUNT);
+      }
+    };
+
+    // Handle resizing
+    const handleResize = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      
+      // Initial draw to clear/setup
+      if (imagesLoaded) {
+        renderFrame(currentFrame.get());
+      }
+    };
+    
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Initial size
+
     // Animation loop subscription
     const unsubscribe = currentFrame.on("change", (latest) => {
       renderFrame(latest);
@@ -180,10 +181,10 @@ export function ScrollytellingCanvas() {
         <div className="absolute inset-0 pointer-events-none flex flex-col items-center justify-center">
           <Section opacityRange={[0.05, 0.15, 0.25, 0.35]} progress={scrollYProgress}>
             <h1 className="text-6xl md:text-9xl font-bold tracking-tighter text-white mix-blend-difference">
-              ALEX<br/>RIVERA
+              ANKITA<br/>GAUTAM
             </h1>
             <p className="mt-4 text-xl md:text-2xl font-light tracking-widest text-white/80 uppercase mix-blend-difference">
-              Creative Developer
+              Shopify & WordPress Developer
             </p>
           </Section>
 

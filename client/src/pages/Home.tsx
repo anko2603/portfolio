@@ -84,8 +84,8 @@ export default function Home() {
                 {/* portrait of creative developer working in dark studio with neon lights */}
                 <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
                    <img 
-                      src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1000&auto=format&fit=crop" 
-                      alt="Alex Rivera Portrait"
+                      src="/static/hero-video.webp" 
+                      alt="Ankita Gautam Portrait"
                       className="object-cover w-full h-full hover:scale-105 transition-transform duration-700"
                    />
                 </div>
@@ -93,27 +93,27 @@ export default function Home() {
              
              <div className="lg:col-span-7 flex flex-col justify-center">
                 <h2 className="text-3xl md:text-5xl font-bold font-display mb-8">
-                   Obsessed with details.<br/>
-                   <span className="text-white/40">Driven by impact.</span>
+                   Shopify & WordPress specialist.<br/>
+                   <span className="text-white/40">Driven by e-commerce impact.</span>
                 </h2>
                 <div className="space-y-6 text-lg text-white/70 font-light leading-relaxed">
                    <p>
-                      I'm a multidisciplinary developer with a background in traditional graphic design. I believe the best digital products feel inevitable, as if they couldn't have been designed any other way.
+                      I'm Ankita Gautam, an e-commerce specialist with expertise in platform customization, theme development, and digital storefront optimization.
                    </p>
                    <p>
-                      My toolkit is vast, but my focus is singular: creating interfaces that are fast, accessible, and delight users through subtle interactions and thoughtful motion.
+                      With a strong background in Shopify Liquid, WordPress, and Python, I architect high-converting storefronts that have generated over $2M+ in annual revenue for clients.
                    </p>
                    <p>
-                      When I'm not coding, you can find me exploring analog photography, brewing specialty coffee, or dissecting the UI of retro sci-fi movies.
+                      My focus is on creating seamless, high-performance shopping experiences that blend technical excellence with strategic conversion optimization.
                    </p>
                 </div>
 
                 <div className="mt-12 pt-12 border-t border-white/10 grid grid-cols-2 md:grid-cols-4 gap-8">
                    {[
-                      { label: "Design", value: "Figma, Adobe CC" },
-                      { label: "Frontend", value: "React, TypeScript" },
-                      { label: "Styling", value: "Tailwind, CSS Modules" },
-                      { label: "Motion", value: "Framer Motion, GSAP" },
+                      { label: "E-Commerce", value: "Shopify, WordPress" },
+                      { label: "Frontend", value: "Liquid, JavaScript" },
+                      { label: "Backend", value: "Python, Django" },
+                      { label: "Marketing", value: "Klaviyo, SEO/CRO" },
                    ].map((skill) => (
                       <div key={skill.label}>
                          <h4 className="text-sm uppercase tracking-widest text-white/30 mb-2">{skill.label}</h4>
