@@ -27,7 +27,7 @@ export function Navigation() {
     >
       <Link href="/" className="pointer-events-auto">
         <span className="text-xl font-bold tracking-tight text-white mix-blend-difference font-display cursor-pointer">
-          AR<span className="text-accent">.</span>
+          AG<span className="text-accent">.</span>
         </span>
       </Link>
 
