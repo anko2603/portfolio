@@ -1,0 +1,108 @@
+[1G[0K⠙[1G[0K
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K⠙[1G[0K9:58:17 AM [express] serving on port 5000
+9:58:26 AM [express] GET /api/projects 200 in 17ms :: [{"id":5,"title":"Multi-Brand E-Commerce Platform","description":"Architected 10+ high-performing e-commerce stores with custom themes and advanced inventory management.","imageUrl":"https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80","link":"#","tags":["Shopify","Liquid","WordPress"],"order":1},{"id":6,"title":"Full-Stack E-Commerce App","description":"Complete e-commerce platform with secure authentication and payment processing.","imageUrl":"https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80","link":"#","tags":["Django","PostgreSQL","REST API"],"order":2},{"id":7,"title":"SEO Optimization Engine","description":"Performance-focused storefronts with 100/100 Lighthouse scores and optimized conversion rates.","imageUrl":"https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80","link":"#","tags":["SEO","Analytics","Performance"],"order":3}]
+9:58:53 AM [express] GET /api/projects 200 in 12ms :: [{"id":5,"title":"Multi-Brand E-Commerce Platform","description":"Architected 10+ high-performing e-commerce stores with custom themes and advanced inventory management.","imageUrl":"https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80","link":"#","tags":["Shopify","Liquid","WordPress"],"order":1},{"id":6,"title":"Full-Stack E-Commerce App","description":"Complete e-commerce platform with secure authentication and payment processing.","imageUrl":"https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80","link":"#","tags":["Django","PostgreSQL","REST API"],"order":2},{"id":7,"title":"SEO Optimization Engine","description":"Performance-focused storefronts with 100/100 Lighthouse scores and optimized conversion rates.","imageUrl":"https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80","link":"#","tags":["SEO","Analytics","Performance"],"order":3}]
+10:01:29 AM [express] GET /api/projects 200 in 11ms :: [{"id":5,"title":"Multi-Brand E-Commerce Platform","description":"Architected 10+ high-performing e-commerce stores with custom themes and advanced inventory management.","imageUrl":"https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80","link":"#","tags":["Shopify","Liquid","WordPress"],"order":1},{"id":6,"title":"Full-Stack E-Commerce App","description":"Complete e-commerce platform with secure authentication and payment processing.","imageUrl":"https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80","link":"#","tags":["Django","PostgreSQL","REST API"],"order":2},{"id":7,"title":"SEO Optimization Engine","description":"Performance-focused storefronts with 100/100 Lighthouse scores and optimized conversion rates.","imageUrl":"https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80","link":"#","tags":["SEO","Analytics","Performance"],"order":3}]
+10:16:49 AM [express] GET /api/projects 304 in 11ms :: [{"id":5,"title":"Multi-Brand E-Commerce Platform","description":"Architected 10+ high-performing e-commerce stores with custom themes and advanced inventory management.","imageUrl":"https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80","link":"#","tags":["Shopify","Liquid","WordPress"],"order":1},{"id":6,"title":"Full-Stack E-Commerce App","description":"Complete e-commerce platform with secure authentication and payment processing.","imageUrl":"https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80","link":"#","tags":["Django","PostgreSQL","REST API"],"order":2},{"id":7,"title":"SEO Optimization Engine","description":"Performance-focused storefronts with 100/100 Lighthouse scores and optimized conversion rates.","imageUrl":"https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80","link":"#","tags":["SEO","Analytics","Performance"],"order":3}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:17:51 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Navigation.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:18:00 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:21:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Home.tsx, /src/index.css[22m
