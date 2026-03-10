@@ -124,6 +124,103 @@ export default function Home() {
              </div>
           </div>
         </section>
+
+        {/* Experience Section */}
+        <section className="relative z-10 bg-background py-32 px-6 md:px-12 border-t border-white/5">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-4xl md:text-6xl font-bold font-display tracking-tight mb-16">
+              Experience
+            </h2>
+
+            <div className="space-y-12">
+              {/* Experience 1 */}
+              <div className="border-l-2 border-accent pl-8 pb-12">
+                <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 md:gap-0 mb-4">
+                  <div>
+                    <h3 className="text-2xl font-bold text-white mb-2">Shopify & WordPress Developer</h3>
+                    <p className="text-lg text-accent font-semibold">Adverta Pvt. Ltd.</p>
+                  </div>
+                  <span className="text-white/50 text-sm whitespace-nowrap">Dec 2025 – Present</span>
+                </div>
+                <p className="text-white/40 text-sm mb-4">Kanpur, Uttar Pradesh</p>
+                <ul className="space-y-3 text-white/70 text-base leading-relaxed">
+                  <li className="flex gap-3">
+                    <span className="text-accent mt-1">•</span>
+                    <span>Architected and deployed 12+ SEO-optimized Shopify and WordPress storefronts generating $2M+ annual revenue for e-commerce clients</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-accent mt-1">•</span>
+                    <span>Customized Shopify Liquid themes and WordPress templates using HTML5, CSS3, JavaScript achieving 40% improvement in conversion rates</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-accent mt-1">•</span>
+                    <span>Integrated marketing automation: Google Analytics, Facebook Pixel, Klaviyo, Mailchimp for data-driven CRO optimization</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-accent mt-1">•</span>
+                    <span>Optimized performance: reduced page load speed from 2.5s to 1.2s, achieved 100/100 Lighthouse score, implemented PCI-compliant payment gateways</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Experience 2 */}
+              <div className="border-l-2 border-accent pl-8 pb-12">
+                <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 md:gap-0 mb-4">
+                  <div>
+                    <h3 className="text-2xl font-bold text-white mb-2">Shopify & WordPress Developer</h3>
+                    <p className="text-lg text-accent font-semibold">4 Fox Business Solution Pvt. Ltd.</p>
+                  </div>
+                  <span className="text-white/50 text-sm whitespace-nowrap">Feb 2025 – Nov 2025</span>
+                </div>
+                <p className="text-white/40 text-sm mb-4">Kanpur, Uttar Pradesh</p>
+                <ul className="space-y-3 text-white/70 text-base leading-relaxed">
+                  <li className="flex gap-3">
+                    <span className="text-accent mt-1">•</span>
+                    <span>Customized and deployed 15+ responsive Shopify and WordPress themes for U.S.-based DTC and SaaS e-commerce clients</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-accent mt-1">•</span>
+                    <span>Developed pixel-perfect responsive layouts using HTML5, CSS3, JavaScript achieving 99.5% cross-browser compatibility</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-accent mt-1">•</span>
+                    <span>Integrated third-party applications (Gorgias, Loox, Yotpo, Aftership) and plugins; delivered zero defects in QA testing</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-accent mt-1">•</span>
+                    <span>Optimized development workflow: reduced development time by 25% using custom CSS frameworks and reusable component libraries</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Experience 3 */}
+              <div className="border-l-2 border-accent pl-8">
+                <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 md:gap-0 mb-4">
+                  <div>
+                    <h3 className="text-2xl font-bold text-white mb-2">Python Developer Intern</h3>
+                    <p className="text-lg text-accent font-semibold">InfoVirTech Private Limited</p>
+                  </div>
+                  <span className="text-white/50 text-sm whitespace-nowrap">Apr 2024 – Jun 2024</span>
+                </div>
+                <p className="text-white/40 text-sm mb-4">Kanpur, Uttar Pradesh</p>
+                <ul className="space-y-3 text-white/70 text-base leading-relaxed">
+                  <li className="flex gap-3">
+                    <span className="text-accent mt-1">•</span>
+                    <span>Built scalable backend services using Python, Django, PostgreSQL with focus on RESTful API design and microservices architecture</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-accent mt-1">•</span>
+                    <span>Optimized database performance: reduced query execution time by 35% using Django ORM and Redis caching implementation</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-accent mt-1">•</span>
+                    <span>Applied advanced data structures and algorithms achieving 2x performance improvement on critical workflows</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />
